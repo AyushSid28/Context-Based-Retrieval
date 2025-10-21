@@ -31,3 +31,4 @@ jupyter notebook Langchain/Project/GENAIApp.ipynb
 ```
 
 The main implementation is in `Langchain/Project/GENAIApp.ipynb` which contains the complete RAG system with web data ingestion, text chunking, embedding generation, vector storage, and retrieval chains.
+
