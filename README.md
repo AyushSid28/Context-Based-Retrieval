@@ -106,11 +106,23 @@ faiss-cpu
 ```
 Context-Based-Retrieval/
 ├── Langchain/
-│   └── Project/
-│       └── GENAIApp.ipynb    # Main RAG implementation
-├── requirements.txt          # Project dependencies
-├── README.md                # Project documentation
-└── .gitignore               # Git ignore rules
+│   ├── Project/
+│   │   └── GENAIApp.ipynb           # Main RAG implementation
+│   ├── DataIngestion/
+│   │   ├── Data_Ingestion.ipynb     # Web scraping examples
+│   │   ├── attention.pdf            # Sample PDF document
+│   │   └── speech.txt               # Sample text file
+│   ├── Embeddings/
+│   │   ├── embedding.ipynb          # OpenAI embeddings
+│   │   ├── HuggingfaceEmbedding.ipynb
+│   │   └── ollamaembedding.ipynb
+│   ├── Data Transformer/
+│   │   └── Text-Splitting.ipynb     # Text chunking strategies
+│   ├── Started.ipynb                # Getting started guide
+│   └── requirements.txt             # LangChain dependencies
+├── requirements.txt                 # Main project dependencies
+├── README.md                       # Project documentation
+└── .gitignore                      # Git ignore rules
 ```
 
 ## Implementation Details
